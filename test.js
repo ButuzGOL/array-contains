@@ -3,8 +3,12 @@
 'use strict';
 
 var assert = require('assert');
-var yourName = require('./');
+var arrayIncludes = require('./');
 
-it('should works ...', function() {
-  assert.equal(true, true);
+it('should includes', function() {
+  assert.equal(arrayIncludes([[1, 2]], [1, 2]), true);
+});
+
+it('should not includes', function() {
+  assert.equal(arrayIncludes([[5, 2]], [1, 2]), false);
 });
