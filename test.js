@@ -3,12 +3,12 @@
 'use strict';
 
 var assert = require('assert');
-var arrayIncludes = require('./');
+var arrayContains = require('./');
 
-it('should includes', function() {
-  assert.equal(arrayIncludes([[1, 2]], [1, 2]), true);
+it('should contains', function() {
+  assert.equal(arrayContains([[1, 2]], [1, 2]), true);
 });
 
-it('should not includes', function() {
-  assert.equal(arrayIncludes([[5, 2]], [1, 2]), false);
+it('should not contains', function() {
+  assert.equal(arrayContains([[5, 2]], [1, 2]), false);
 });

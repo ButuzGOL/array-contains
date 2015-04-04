@@ -1,20 +1,20 @@
-# array-includes [![Build Status](https://travis-ci.org/ButuzGOL/array-includes.svg?branch=master)](https://travis-ci.org/ButuzGOL/array-includes)
+# array-contains [![Build Status](https://travis-ci.org/ButuzGOL/array-contains.svg?branch=master)](https://travis-ci.org/ButuzGOL/array-contains)
 
 ## Install
 
 ```sh
-$ npm install --save array-includes
+$ npm install --save array-contains
 ```
 
 ## Usage
 
 ```js
-var arrayIncludes = require('array-includes');
+var arrayContains = require('array-contains');
 
-arrayIncludes([[1, 2]], [1, 2])
+arrayContains([[1, 2]], [1, 2])
 //=> true
 
-arrayIncludes([[5, 2]], [1, 2])
+arrayContains([[5, 2]], [1, 2])
 //=> false
 
 ```

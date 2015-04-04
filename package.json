@@ -1,9 +1,9 @@
 {
-  "name": "array-includes",
+  "name": "array-contains",
   "version": "0.0.1",
-  "description": "Check if includes array in arrays",
+  "description": "Check if contains array in arrays",
   "license": "MIT",
-  "repository": "ButuzGOL/array-includes",
+  "repository": "ButuzGOL/array-contains",
   "author": {
     "name": "ButuzGOL",
     "email": "ButuzGOL@gmail.com",
@@ -21,6 +21,7 @@
   "keywords": [
     "array",
     "arrays",
+    "contains",
     "includes"
   ],
   "devDependencies": {
